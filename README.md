@@ -1,16 +1,12 @@
 # KD-Tree for Range Queries and Dynamic Updates
 
+### Authors :  Donthireddy Hanvitha (210050047) , Racha Yashaswi Ratna (210050127)
 ## Problem Description
 
 Given a set of points in 2D space (ℝ²), the goal is to:
 
 - (a) Build a **static KD-Tree** to support efficient **orthogonal range queries**.
 - (b) Extend the KD-Tree to support **dynamic updates** (insertions and deletions) along with range queries.
-
-### Requirements:
-
-- **Preprocessing time**: **O(n log n)**
-- **Query time**: **O(√n + k)**, where `k` is the number of reported points.
 
 ---
 
